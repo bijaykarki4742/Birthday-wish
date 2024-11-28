@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy Birthday, Bestie!</title>
+    <link rel="stylesheet" href="birthday.css">
+    <link href="https://fonts.googleapis.com/css2?family=Lobster+Two:wght@700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <h1>Happy Birthday, Santhoshi!</h1>
+        <p class="subheading">This page is made with ❤️ just for you!</p>
+    </header>
+
+    <!-- Photo Gallery -->
+    <section class="photo-gallery">
+        <h2>Birthday Girl</h2>
+        <div class="gallery">
+            <div class="slide-track">
+                <div class="gallery-slide">
+                    <img src="image/Screenshot 2024-11-19 224536.png">
+                </div>
+                <div class="gallery-slide">
+                    <img src="image/Screenshot 2024-11-19 225153.png">
+                </div>
+                <div class="gallery-slide">
+                    <img src="image/Screenshot 2024-11-19 224623.png">
+                </div>
+                
+                <div class="gallery-slide">
+                    <img src="image/Screenshot 2024-11-19 225026.png">
+                </div>
+                <div class="gallery-slide">
+                    <img src="image/Screenshot 2024-11-19 225126.png">
+                </div>
+                <div class="gallery-slide">
+                    <img src="image/Screenshot 2024-11-19 224601.png">
+                </div>
+                <div class="gallery-slide">
+                    <img src="image/Screenshot 2024-11-19 225005.png">
+                </div>
+                <div class="gallery-slide">
+                    <img src="image/Screenshot 2024-11-19 225143.png">
+                </div>
+                <div class="gallery-slide">
+                    <img src="image/Screenshot 2024-11-19 225153.png">
+                </div>
+                
+                <div class="gallery-slide">
+                    <img src="image/Screenshot 2024-11-19 224536.png">
+                </div>
+                <div class="gallery-slide">
+                    <img src="image/Screenshot 2024-11-19 224623.png">
+                </div>
+                <div class="gallery-slide">
+                    <img src="image/Screenshot 2024-11-19 225005.png">
+                </div>
+            </div>
+        </div>
+        <p>Happy Birthday to the girl in the photos above! She seems like someone who's incredibly hardworking, always striving to achieve her dreams with determination and passion. <br>
+            From the way she carries herself, you can tell she’s someone who inspires others to never give up and keep pushing forward. <br>
+            Here's wishing her a year full of opportunities, happiness, and success—just like she deserves!</p>
+    </section>
+
+    <section class="birthday-card-section">
+        <div class="birthdayCard">
+            <div class="cardFront">
+              <h3 class="happy">HAPPY BIRTHDAY SANTOSHI</h3>
+              <div class="balloons">
+                <div class="balloon-1"></div>
+                <div class="balloon-2"></div>
+                <div class="balloon-3"></div>
+                <div class="balloon-4"></div>
+              </div>
+            </div>
+            <div class="cardInside">
+              <h3 class="back">HAPPY BIRTHDAY</h3>
+              <p>Dear Santhoshi,</p>
+              <p>
+                Happy Birthday to my amazing best friend! 🎉
+                I’m so proud of everything you’re doing to chase your dreams, and I know there’s nothing you can’t achieve. <br>
+              </p>
+            </div>
+          </div>
+    </section>
+
+    <section class="quiz">
+        <h2>How Well Do You Know Me?</h2>
+        <p>What is my favorite dessert?</p>
+        <button onclick="showAnswer('Correct! 🎉', 'quiz-result')">Chocolate Cake</button>
+        <button onclick="showAnswer('Try Again 😅', 'quiz-result')">Ice Cream</button>
+        <p id="quiz-result"></p>
+      </section>
+    
+      <section class="quizs">
+        <p>What is my favorite fast food?</p>
+        <button onclick="showAnswer('Try Again 😅', 'quiz-result1')">Chatpate</button>
+        <button onclick="showAnswer('Correct! 🎉', 'quiz-result1')">Pani puri</button>
+        <p id="quiz-result1"></p>
+      </section>
+    
+      <section class="quizs">
+        <p>What is my favorite drink?</p>
+        <button onclick="showAnswer('Try Again 😅', 'quiz-result2')">Coke</button>
+        <button onclick="showAnswer('Correct! 🎉', 'quiz-result2')">Sprite</button>
+        <p id="quiz-result2"></p>
+      </section>
+
+      <section class="quizs">
+        <p>Who is my favorite person?</p>
+        <button onclick="showFavoriteLine()">Santhosi</button>
+        <button onclick="showFavoriteLine2()">Santhosi</button>
+        <p id="special-quiz-result"></p>
+      </section>
+
+      <section class="gift-section">
+        <p>Click the gift box below to reveal a special message!</p>
+        <div id="gift-box"></div>
+        <h1 id="hidden-message1" style="display: none;">🎉Once Again Happy Birthday, Santhoshi! 🎉</h1>
+        <div class="image-container" style="display: none;" id="hidden-image-container">
+            <img id="hidden-image" src="image/Screenshot 2024-11-19 225143.png" alt="Birthday Image">
+        </div>
+        <h2 id="hidden-message2" style="display: none;">✨ Surprise! You're the best friend ever! ✨</h2>
+    </section>
+
+    <footer class="footer">
+        <p>Created with ❤️ by Your Friend</p>
+    </footer>
+    <audio autoplay loop>
+        <source src="Happy birthday song/happy-birthday-155461.mp3" type="audio/mpeg">
+      </audio>
+    <script src="birthday.js"></script>
+</body>
+</html>
